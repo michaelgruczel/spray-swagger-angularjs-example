@@ -1,7 +1,7 @@
 spray-swagger-angularjs-example
 ===============================
 
-    This code is in beta, do not use now
+    > This code is in beta, do not use now
 
 Simple Todo list example with spray(scala), swagger (api-docu) and angularjs (frontend) and bootstrap (frontend layout)
 
@@ -46,8 +46,13 @@ Follow these steps to get started:
 
 8. Stop the application:
 
-> re-stop
+    > re-stop
 
 9. Learn more at http://www.spray.io/
 
 10. Start hacking on `src/main/scala/com/example/MyService.scala`
+
+11.import to scalaIde (or choose your own IDE)
+
+    $ sbt eclipse
+    
