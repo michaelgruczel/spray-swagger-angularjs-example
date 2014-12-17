@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" ng-app="todoApp">
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <script src="angular/angular.js"></script>
+  <script src="angular/angular-resource.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/TestCtrl.js"></script>
+</head>
+<body>
+
+<div class="container" ng-controller="TodoCtrl">
+
+     <h2 class="form-signin-heading">Todo list</h2>
+     <br/>
+
+     <ul class="unstyled">
+        <li ng-repeat="todo in todos">
+          {{todo.text}}
+        </li>
+      </ul>
+
+     <br/>
+      
+      <form ng-submit="updateTodo()">
+        <div class="form-signin" role="form">
+        <input type="text" ng-model="todoId"  size="30"
+               placeholder="todo id here">      
+        <input type="text" ng-model="todoText"  size="30"
+               placeholder="add todo content here">
+        <input class="btn-primary" type="submit" value="update">
+        </div>
+      </form>
+
+      </br>
+      </br>
+
+      <form ng-submit="deleteTodo()">
+        <div class="form-signin" role="form">
+        <input type="text" ng-model="todoId"  size="30"
+               placeholder="todo id here">      
+        <input class="btn-primary" type="submit" value="delete">
+        </div>
+      </form>
+      
+</div> <!-- /container -->
+
+</body>
+</html>
+
