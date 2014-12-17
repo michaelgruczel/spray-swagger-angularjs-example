@@ -52,7 +52,6 @@ Follow these steps to get started:
 
 10. Start hacking on `src/main/scala/com/example/MyService.scala`
 
-11.import to scalaIde (or choose your own IDE)
+11. import to scalaIde (or choose your own IDE):
 
     $ sbt eclipse
-    
