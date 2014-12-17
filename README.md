@@ -54,4 +54,4 @@ Follow these steps to get started:
 
 11. import to scalaIde (or choose your own IDE):
 
-    $ sbt eclipse
+     $ sbt eclipse
